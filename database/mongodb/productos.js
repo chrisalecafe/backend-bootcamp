@@ -5,8 +5,7 @@ const productosSchema = mongoose.Schema({
     tipo: { type: String, required: true },
     cantidad: { type: Number, required: true },
     precio: { type: Number, required: true },
-    costo: { type: Number, required: true },
-    total: { type: Number, required: true },
+    costo: { type: Number, required: true }
 });
 
 const Productos = mongoose.model("productos", productosSchema);
